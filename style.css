@@ -1,0 +1,44 @@
+/* External Stylesheet */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Class Selector */
+.img-thumbnail {
+    width: 150px;
+    height: 150px;
+}
+
+/* ID Selector */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+    color: #007bff !important;
+}
+
+/* Adding a background image */
+#about {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+}

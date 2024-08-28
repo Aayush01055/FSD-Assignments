@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .navbar-nav .nav-item .nav-link {
+            color: #007bff;
+        }
+    
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #0056b3;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about" class="container my-5">
+        <h2>About Me</h2>
+        <img src="images/Aayush.jpeg" alt="Profile Picture" class="img-thumbnail float-left mr-3">
+        <p style="color: #6c757d;">Hello! I'm a passionate software developer with skills in .NET, Java, Python, SQL, and computer networking...</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container my-5">
+        <h2>Skills</h2>
+        <ul>
+            <li>.NET</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Computer Networking</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container my-5">
+        <h2>Projects</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Technologies Used</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Student Record System</td>
+                    <td>A system to manage student records.</td>
+                    <td>.NET, SQL</td>
+                </tr>
+                <tr>
+                    <td>Video Analytics for Managing Crowds</td>
+                    <td>Analyzing video data for crowd management.</td>
+                    <td>Python, OpenCV</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" class="form-control" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
